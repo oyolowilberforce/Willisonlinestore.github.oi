@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <div class="container">
+      <div class="title">Sign Up</div>
+      <form action="signup.php" method="post">
+         <div class="User-Details">       
+            <div class="Input-Box">
+               <span class="Details">Fullname</span>
+               <input type="text" name="fullname" placeholder="Fullname" required>
+            </div>
+            <div class="Input-Box">
+               <span class="Details">Username</span>
+               <input type="text" name="username" placeholder="Username" required>
+            </div>
+            <div class="Input-Box">
+               <span class="Details">Email</span>
+               <input type="text" name="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="Input-Box">
+               <span class="Details">Password</span>
+               <input type="password" name="password" placeholder="Enter your Password" required>
+            </div>
+         </div>
+         <div class="button">
+            <input type="submit" value="Register">
+         </div>
+      </form>
+   </div>
+</body>
+</html>
